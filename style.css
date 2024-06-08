@@ -1,0 +1,101 @@
+body{
+    text-align: left ;
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+  }
+  .p{
+    font-size:30px;
+    border-style:solid;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: lightgrey;
+    padding: 5px;
+  } 
+  
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  /* NAVBAR */
+  .navbar{
+    background-color: #9b9b9b;
+    text-align: left;
+    padding-bottom:10px;
+    margin-top: 0;
+    overflow: hidden;
+  }
+  .menu a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold, initial;
+  }
+  .menu a:hover{
+    color: cornsilk;
+  }
+  /* BUTTONS */
+  .navbutton{
+    padding: 5px;
+    font-size: 35px;
+    -webkit-text-fill-color: black;
+    border-style: solid;
+    border-radius: 13px;
+    background-color:lightgoldenrodyellow;
+    background-position: 0px 10px 10px 10px;
+    color: #fff;
+  }
+  .navbutton:hover{
+    background-color: rgb(110, 110, 110);
+  }
+  /* DROPDOWN MENU*/
+  .dropdown { 
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+  }
+
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(57, 57, 57);
+  }
+  
+  /* MORE INFO BUTTON */
+  .more-info {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 150px;
+    height: 200px;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .more-info:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+  }
+  
+  @media (min-width: 768px) {
+    .more-info {
+      padding: 1rem 2rem;
+    }
+  }
