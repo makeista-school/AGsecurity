@@ -99,3 +99,8 @@ body{
       padding: 1rem 2rem;
     }
   }
+  .contacts{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-emphasis-color: rgb(167, 167, 167);
+  }
