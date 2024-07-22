@@ -1,2 +1,1 @@
-Those are the files, however they are not fully ready to be launched. 
-What you have to do is finish them your way. :")
+Finished school project; took a couple of days!
